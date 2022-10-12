@@ -29,7 +29,7 @@ func first(text: String) -> String?
 }
 print("THe first appeared character is:", (first(text:"taylor swift")))
 
-//
+//structure programs
 struct Size {
     var width: Double
     var height: Double
@@ -68,8 +68,7 @@ let person = Person(name:"hitohito")
 person.sayHELLO() //instNCE Created is calling the function
     //intanceMethod called using . op 
 
-
-
+// prg
 struct Odometer {
     var i: Int = 0
     
@@ -78,7 +77,7 @@ let odometer = Odometer()
 print(odometer.i)
 
 
-    //
+    //prg
 struct Temp{
     var cel: Double
     init(cel: Double) {
@@ -93,9 +92,7 @@ let boiling = Temp(far: 212.0)
 print(currenttemp.cel)
 print(boiling.cel)
   
-//
-
-
+//prg
 struct temper {
     var celsius: Double
     var faren: Double {
