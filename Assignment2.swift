@@ -15,3 +15,4 @@ return oneStr.lowercased().sorted() == twoStr.lowercased().sorted()
  Home.name = "a3b2c2d1f1g2"
  print(Home.name)
  Home.anagram(oneStr:"aaabbccdfgg", twoStr:"a3b2c2d1f1g2")
+ Home.anagram()
